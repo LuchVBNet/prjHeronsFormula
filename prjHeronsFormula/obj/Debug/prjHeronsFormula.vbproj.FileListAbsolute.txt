@@ -1,12 +1,16 @@
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\prjHeronsFormula.exe.config
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\prjHeronsFormula.exe
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\prjHeronsFormula.pdb
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\prjHeronsFormula.xml
 D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.frmMain.resources
 D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.Resources.resources
 D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.vbproj.GenerateResource.cache
 D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.vbproj.CoreCompileInputs.cache
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.exe
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.xml
-D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.pdb
 D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\prjHeronsFormula.vbprojAssemblyReference.cache
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\Heron's Formula.exe.config
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\Heron's Formula.exe
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\Heron's Formula.pdb
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\Heron's Formula.xml
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\Heron's Formula.exe
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\Heron's Formula.xml
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\Heron's Formula.pdb
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\Heron's Formula.exe.manifest
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\bin\Debug\Heron's Formula.application
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\Heron's Formula.exe.manifest
+D:\Visual Studio\Rellon's Projects\prjHeronsFormula\prjHeronsFormula\obj\Debug\Heron's Formula.application

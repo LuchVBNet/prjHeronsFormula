@@ -40,33 +40,36 @@
             decArea = 0
         Else
             decArea = temp ^ (1 / 2)
+            boolImaginary = False
         End If
 
     End Sub
 
     Private Sub GetInputs()
-        intDecimals = ProcessPrecision(Integer.Parse(txtDecimals.Text))
-        decA = ProcessABC(Decimal.Parse(txtA.Text))
-        decB = ProcessABC(Decimal.Parse(txtB.Text))
-        decC = ProcessABC(Decimal.Parse(txtC.Text))
+        Integer.TryParse(txtDecimals.Text, intDecimals)
+        Decimal.TryParse(txtA.Text, decA)
+        Decimal.TryParse(txtB.Text, decB)
+        Decimal.TryParse(txtC.Text, decC)
+        ProcessPrecision(intDecimals)
+        ProcessABC(decA)
+        ProcessABC(decB)
+        ProcessABC(decC)
         FormatInputs()
     End Sub
 
-    Private Function ProcessABC(side As Decimal) As Decimal
+    Private Sub ProcessABC(ByRef side As Decimal)
         If side < 0 Then
-            MsgBox("Sides A,B, and C cannot be less than 0.")
-            Return 0
+            MsgBox("Sides A, B, and C cannot be less than 0.")
+            side = 0
         End If
-        Return side
-    End Function
+    End Sub
 
-    Private Function ProcessPrecision(numDecimals As Integer) As Integer
+    Private Sub ProcessPrecision(ByRef numDecimals As Integer)
         If numDecimals < 0 Then
             MsgBox("Number of decimal places cannot be less than 0.")
-            Return intPRECISION
+            numDecimals = intPRECISION
         End If
-        Return numDecimals
-    End Function
+    End Sub
 
     Private Sub textBox_LoseFocus(sender As Object, e As EventArgs) Handles txtDecimals.Leave, txtC.Leave, txtB.Leave, txtA.Leave
         GetInputs()
@@ -93,7 +96,7 @@
     End Sub
 
     Private Sub FormatOutputs()
-        txtSemiPerimeter.Text = decS.ToString()
+        txtSemiPerimeter.Text = decS.ToString("N" & intDecimals)
         txtArea.Text = If(boolImaginary, "Error", decArea.ToString("N" & intDecimals))
     End Sub
 

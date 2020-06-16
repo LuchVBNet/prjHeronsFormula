@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Heron's Formula.exe" version="1.0.0.0" publicKeyToken="48ca3b9c70d6dbfd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Heron's Formula" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Heron's Formula.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Heron's Formula.exe" size="39464">
+      <assemblyIdentity name="Heron's Formula" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EWIWRbls2xQJRGo4OJt07IhZNTcjtpapbMb0AijnnJ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Heron's Formula.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-PQTKU1J\Luchavez Internet" issuerKeyHash="239ec6be24e528a7a143f42973b6a4eb93192b03" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oyPo99etxu9BbjfvAwrrGwvsWFmx19WiPzW/fKVolwU=</DigestValue></Reference></SignedInfo><SignatureValue>dQzfpiTjL0Vn4KvyB5ly45jUhMeEsoM+ZfS0xuqDQrFVtEgbiEaeTugXvFmoZiVR31f8ZDY5pmAH+hMFq94A/qYxGtW/ERIXxge/Jt8vmcIaTuauXpZIM5+8eatrMv58PsOsnbGp1vNmV2W5960EYiXazB55G054NbiNp7MsQpY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>noImeJp3bjzdRr8mclHvkuRsZZNOI/m6C599h6i91dkufVzpdovRdojKCK6Vvh0Z7QQ3e7UUbDd7rWPSyzSIkrQLjRRVebarN42JHrC5L+iRS1j4C7iV28ZIx7Klh152dCd3WdPH5RqsGYcZoG5fpEbp6gZuFnPXeAZGkHjUxKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="059768a57cbf353fa2d5d7b15958ec0b1beb0a03ef376e41efc6add7f7e823a3" Description="" Url=""><as:assemblyIdentity name="Heron's Formula.exe" version="1.0.0.0" publicKeyToken="48ca3b9c70d6dbfd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PQTKU1J\Luchavez Internet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jiuNu4u9+QsjEw50KDNMWiXnOIdarD1fGY1NwkUvghU=</DigestValue></Reference></SignedInfo><SignatureValue>OMAb0OvToc5glP4UUt9bAAABn+xEG6Xc5esEaK4cstx8fLDtniUw5P8rHMG7CkIQTspcDEkdhkjC+6v3MsdqkCs4W/6ORlVjhcWgmoV+exUoVVkeH/59RdCGCfN3saI9eTCYv3PZqnUWRkngyh/Z6wXAn1kEHwUGETILiwqeB4k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>noImeJp3bjzdRr8mclHvkuRsZZNOI/m6C599h6i91dkufVzpdovRdojKCK6Vvh0Z7QQ3e7UUbDd7rWPSyzSIkrQLjRRVebarN42JHrC5L+iRS1j4C7iV28ZIx7Klh152dCd3WdPH5RqsGYcZoG5fpEbp6gZuFnPXeAZGkHjUxKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICHTCCAYagAwIBAgIQdII3e/J/L5xCJKS5aYjpOTANBgkqhkiG9w0BAQsFADBNMUswSQYDVQQDHkIARABFAFMASwBUAE8AUAAtAFAAUQBUAEsAVQAxAEoAXABMAHUAYwBoAGEAdgBlAHoAIABJAG4AdABlAHIAbgBlAHQwHhcNMjAwNjE2MjMyMzIyWhcNMjEwNjE3MDUyMzIyWjBNMUswSQYDVQQDHkIARABFAFMASwBUAE8AUAAtAFAAUQBUAEsAVQAxAEoAXABMAHUAYwBoAGEAdgBlAHoAIABJAG4AdABlAHIAbgBlAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ6CJniad2483Ua/JnJR75LkbGWTTiP5uguffYeovdXZLn1c6XaL0XaIygiulb4dGe0EN3u1FGw3e61j0ss0iJK0C40UVXm2qzeNiR6wuS/okUtY+Au4ldvGSMeypYdednQnd1nTx+UarBmHGaBuX6RG6eoGbhZz13gGRpB41MShAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfFW1vpp2YWo1lMtPa5YpUDxXomvtIyXGVTs/7Cj/E0Dw88+a38X2GGXnAz4Qsr2YdOAxUWn9No7Iw38HVWvl8v64bmBsR6EXFNX2Y3yj8F4frZu9Lh0pf1NoN+8EwhI/dd7FANqqw6YqmZ2+iZzxi37f6DAE6irlF/E0doSQPHU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
